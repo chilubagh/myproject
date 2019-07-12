@@ -1,0 +1,20 @@
+Task 1
+Explain the difference in the normalization constant in variance/covariance formula
+
+
+
+
+Sample variance is given by 
+
+𝑠2=∑(𝑥−𝑥¯)2/𝑛−1 while 
+Population variance can be expressed by 
+
+𝜎2=∑(𝑥−𝜇)2/𝑛
+
+If the sample variance is large there is a probability that it captures the true population variance. That is why when you divide by (𝑛−1) we call that an unbiased sample estimate.Also dividing by n means,finding the biased estimate.
+
+
+
+Task 2
+Covariance functions encode all assumptions about the form of function that we are modelling. In general, covariance represents some form of distance or similarity. Consider two input points  xi and xj with corresponding observed values yi and yj. If the inputs xi and xj are close to each other, we generally expect that yi and yj will be close as well. This measure of similarity is embedded in the covariance function.
+ 
